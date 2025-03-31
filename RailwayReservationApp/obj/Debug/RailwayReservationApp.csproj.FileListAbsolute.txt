@@ -1,0 +1,10 @@
+C:\Users\Lenovo\source\repos\RailwayReservationApp\bin\Debug\RailwayReservationApp.exe.config
+C:\Users\Lenovo\source\repos\RailwayReservationApp\bin\Debug\RailwayReservationApp.exe
+C:\Users\Lenovo\source\repos\RailwayReservationApp\bin\Debug\RailwayReservationApp.pdb
+C:\Users\Lenovo\source\repos\RailwayReservationApp\obj\Debug\RailwayReservationApp.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\RailwayReservationApp\obj\Debug\RailwayReservationApp.Form1.resources
+C:\Users\Lenovo\source\repos\RailwayReservationApp\obj\Debug\RailwayReservationApp.Properties.Resources.resources
+C:\Users\Lenovo\source\repos\RailwayReservationApp\obj\Debug\RailwayReservationApp.csproj.GenerateResource.cache
+C:\Users\Lenovo\source\repos\RailwayReservationApp\obj\Debug\RailwayReservationApp.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\RailwayReservationApp\obj\Debug\RailwayReservationApp.exe
+C:\Users\Lenovo\source\repos\RailwayReservationApp\obj\Debug\RailwayReservationApp.pdb
