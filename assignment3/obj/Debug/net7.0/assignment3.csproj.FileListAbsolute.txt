@@ -1,0 +1,15 @@
+C:\Users\mcs58\source\repos\assignment3\bin\Debug\net7.0\assignment3.exe
+C:\Users\mcs58\source\repos\assignment3\bin\Debug\net7.0\assignment3.deps.json
+C:\Users\mcs58\source\repos\assignment3\bin\Debug\net7.0\assignment3.runtimeconfig.json
+C:\Users\mcs58\source\repos\assignment3\bin\Debug\net7.0\assignment3.dll
+C:\Users\mcs58\source\repos\assignment3\bin\Debug\net7.0\assignment3.pdb
+C:\Users\mcs58\source\repos\assignment3\obj\Debug\net7.0\assignment3.csproj.AssemblyReference.cache
+C:\Users\mcs58\source\repos\assignment3\obj\Debug\net7.0\assignment3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mcs58\source\repos\assignment3\obj\Debug\net7.0\assignment3.AssemblyInfoInputs.cache
+C:\Users\mcs58\source\repos\assignment3\obj\Debug\net7.0\assignment3.AssemblyInfo.cs
+C:\Users\mcs58\source\repos\assignment3\obj\Debug\net7.0\assignment3.csproj.CoreCompileInputs.cache
+C:\Users\mcs58\source\repos\assignment3\obj\Debug\net7.0\assignment3.dll
+C:\Users\mcs58\source\repos\assignment3\obj\Debug\net7.0\refint\assignment3.dll
+C:\Users\mcs58\source\repos\assignment3\obj\Debug\net7.0\assignment3.pdb
+C:\Users\mcs58\source\repos\assignment3\obj\Debug\net7.0\assignment3.genruntimeconfig.cache
+C:\Users\mcs58\source\repos\assignment3\obj\Debug\net7.0\ref\assignment3.dll

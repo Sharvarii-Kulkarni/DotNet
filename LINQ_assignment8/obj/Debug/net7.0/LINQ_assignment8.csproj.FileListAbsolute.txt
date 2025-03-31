@@ -1,0 +1,5 @@
+C:\Users\mcs58\source\repos\LINQ_assignment8\obj\Debug\net7.0\LINQ_assignment8.csproj.AssemblyReference.cache
+C:\Users\mcs58\source\repos\LINQ_assignment8\obj\Debug\net7.0\LINQ_assignment8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mcs58\source\repos\LINQ_assignment8\obj\Debug\net7.0\LINQ_assignment8.AssemblyInfoInputs.cache
+C:\Users\mcs58\source\repos\LINQ_assignment8\obj\Debug\net7.0\LINQ_assignment8.AssemblyInfo.cs
+C:\Users\mcs58\source\repos\LINQ_assignment8\obj\Debug\net7.0\LINQ_assignment8.csproj.CoreCompileInputs.cache

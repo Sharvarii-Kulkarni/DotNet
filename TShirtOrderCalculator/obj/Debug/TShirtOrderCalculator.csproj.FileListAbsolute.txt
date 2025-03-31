@@ -1,0 +1,10 @@
+C:\Users\Lenovo\source\repos\TShirtOrderCalculator\bin\Debug\TShirtOrderCalculator.exe.config
+C:\Users\Lenovo\source\repos\TShirtOrderCalculator\bin\Debug\TShirtOrderCalculator.exe
+C:\Users\Lenovo\source\repos\TShirtOrderCalculator\bin\Debug\TShirtOrderCalculator.pdb
+C:\Users\Lenovo\source\repos\TShirtOrderCalculator\obj\Debug\TShirtOrderCalculator.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\TShirtOrderCalculator\obj\Debug\TShirtOrderCalculator.Form1.resources
+C:\Users\Lenovo\source\repos\TShirtOrderCalculator\obj\Debug\TShirtOrderCalculator.Properties.Resources.resources
+C:\Users\Lenovo\source\repos\TShirtOrderCalculator\obj\Debug\TShirtOrderCalculator.csproj.GenerateResource.cache
+C:\Users\Lenovo\source\repos\TShirtOrderCalculator\obj\Debug\TShirtOrderCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\TShirtOrderCalculator\obj\Debug\TShirtOrderCalculator.exe
+C:\Users\Lenovo\source\repos\TShirtOrderCalculator\obj\Debug\TShirtOrderCalculator.pdb

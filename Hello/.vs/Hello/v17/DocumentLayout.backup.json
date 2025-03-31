@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\source\\repos\\Hello\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D029FB06-CA8E-4223-89C8-E5CF0F48318B}|Hello\\Hello.csproj|c:\\users\\lenovo\\source\\repos\\hello\\hello\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D029FB06-CA8E-4223-89C8-E5CF0F48318B}|Hello\\Hello.csproj|solutionrelative:hello\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Hello\\Hello\\Program.cs",
+              "RelativeDocumentMoniker": "Hello\\Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Hello\\Hello\\Program.cs",
+              "RelativeToolTip": "Hello\\Program.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T08:11:43.513Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

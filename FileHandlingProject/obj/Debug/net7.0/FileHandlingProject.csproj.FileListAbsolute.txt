@@ -1,0 +1,15 @@
+C:\Users\mcs58\source\repos\FileHandlingProject\bin\Debug\net7.0\FileHandlingProject.exe
+C:\Users\mcs58\source\repos\FileHandlingProject\bin\Debug\net7.0\FileHandlingProject.deps.json
+C:\Users\mcs58\source\repos\FileHandlingProject\bin\Debug\net7.0\FileHandlingProject.runtimeconfig.json
+C:\Users\mcs58\source\repos\FileHandlingProject\bin\Debug\net7.0\FileHandlingProject.dll
+C:\Users\mcs58\source\repos\FileHandlingProject\bin\Debug\net7.0\FileHandlingProject.pdb
+C:\Users\mcs58\source\repos\FileHandlingProject\obj\Debug\net7.0\FileHandlingProject.csproj.AssemblyReference.cache
+C:\Users\mcs58\source\repos\FileHandlingProject\obj\Debug\net7.0\FileHandlingProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mcs58\source\repos\FileHandlingProject\obj\Debug\net7.0\FileHandlingProject.AssemblyInfoInputs.cache
+C:\Users\mcs58\source\repos\FileHandlingProject\obj\Debug\net7.0\FileHandlingProject.AssemblyInfo.cs
+C:\Users\mcs58\source\repos\FileHandlingProject\obj\Debug\net7.0\FileHandlingProject.csproj.CoreCompileInputs.cache
+C:\Users\mcs58\source\repos\FileHandlingProject\obj\Debug\net7.0\FileHandlingProject.dll
+C:\Users\mcs58\source\repos\FileHandlingProject\obj\Debug\net7.0\refint\FileHandlingProject.dll
+C:\Users\mcs58\source\repos\FileHandlingProject\obj\Debug\net7.0\FileHandlingProject.pdb
+C:\Users\mcs58\source\repos\FileHandlingProject\obj\Debug\net7.0\FileHandlingProject.genruntimeconfig.cache
+C:\Users\mcs58\source\repos\FileHandlingProject\obj\Debug\net7.0\ref\FileHandlingProject.dll

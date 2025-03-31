@@ -1,0 +1,5 @@
+C:\Users\Lenovo\source\repos\SimpleCalculator\obj\Debug\SimpleCalculator.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\SimpleCalculator\obj\Debug\SimpleCalculator.Form1.resources
+C:\Users\Lenovo\source\repos\SimpleCalculator\obj\Debug\SimpleCalculator.Properties.Resources.resources
+C:\Users\Lenovo\source\repos\SimpleCalculator\obj\Debug\SimpleCalculator.csproj.GenerateResource.cache
+C:\Users\Lenovo\source\repos\SimpleCalculator\obj\Debug\SimpleCalculator.csproj.CoreCompileInputs.cache
