@@ -1,77 +1,147 @@
 ﻿using System;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace SimpleCalculator
 {
     public partial class Form1 : Form
     {
+        TextBox display;
+        double result = 0;
+        string operation = "";
+        bool isOperationPerformed = false;
+
         public Form1()
         {
             InitializeComponent();
+            InitializeCalculatorUI();
         }
 
-        private void PerformCalculation(Func<double, double, double> operation)
+        private void InitializeCalculatorUI()
         {
-            double num1, num2, result;
+            this.Text = "Simple Calculator";
+            this.Size = new Size(350, 500);
+            this.FormBorderStyle = FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
 
-            try
+            display = new TextBox();
+            display.Size = new Size(300, 40);
+            display.Location = new Point(20, 20);
+            display.Font = new Font("Segoe UI", 16);
+            display.ReadOnly = true;
+            display.TextAlign = HorizontalAlignment.Right;
+            this.Controls.Add(display);
+
+            string[] buttons = {
+                "7", "8", "9", "/",
+                "4", "5", "6", "*",
+                "1", "2", "3", "-",
+                "0", ".", "=", "+",
+                "C", "%", "√", "^"
+            };
+
+            int x = 20, y = 80;
+            int btnWidth = 60, btnHeight = 50;
+            int count = 0;
+
+            foreach (string text in buttons)
             {
-                // Validate Input
-                if (!double.TryParse(txtNumber1.Text, out num1) || !double.TryParse(txtNumber2.Text, out num2))
+                Button btn = new Button();
+                btn.Text = text;
+                btn.Size = new Size(btnWidth, btnHeight);
+                btn.Location = new Point(x, y);
+                btn.Font = new Font("Segoe UI", 12);
+                btn.Click += Button_Click;
+                this.Controls.Add(btn);
+
+                count++;
+                x += btnWidth + 10;
+                if (count % 4 == 0)
                 {
-                    throw new FormatException("Invalid input! Please enter numeric values.");
+                    x = 20;
+                    y += btnHeight + 10;
                 }
-
-                // Perform Calculation
-                result = operation(num1, num2);
-
-                lblResult.Text = $"Result: {result}";
             }
-            catch (DivideByZeroException)
+        }
+
+        private void Button_Click(object sender, EventArgs e)
+        {
+            Button btn = (Button)sender;
+
+            if (btn.Text == "C")
             {
-                MessageBox.Show("Cannot divide by zero!", "Math Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                display.Text = "";
+                result = 0;
+                operation = "";
+                isOperationPerformed = false;
+                return;
             }
-            catch (FormatException ex)
+
+            if (btn.Text == "=")
             {
-                MessageBox.Show(ex.Message, "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                try
+                {
+                    double secondNumber = double.Parse(display.Text);
+                    switch (operation)
+                    {
+                        case "+": result += secondNumber; break;
+                        case "-": result -= secondNumber; break;
+                        case "*": result *= secondNumber; break;
+                        case "/": result = secondNumber != 0 ? result / secondNumber : throw new DivideByZeroException(); break;
+                        case "%": result %= secondNumber; break;
+                        case "^": result = Math.Pow(result, secondNumber); break;
+                    }
+                    display.Text = result.ToString();
+                    isOperationPerformed = true;
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error: " + ex.Message);
+                }
+                return;
             }
-            catch (Exception ex)
+
+            if (btn.Text == "+" || btn.Text == "-" || btn.Text == "*" || btn.Text == "/" || btn.Text == "%" || btn.Text == "^")
             {
-                MessageBox.Show("An unexpected error occurred: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                try
+                {
+                    result = double.Parse(display.Text);
+                    operation = btn.Text;
+                    isOperationPerformed = true;
+                }
+                catch
+                {
+                    MessageBox.Show("Please enter a number first.");
+                }
+                return;
             }
+
+            if (btn.Text == "√")
+            {
+                try
+                {
+                    double value = double.Parse(display.Text);
+                    display.Text = Math.Sqrt(value).ToString();
+                }
+                catch
+                {
+                    MessageBox.Show("Invalid input for square root.");
+                }
+                return;
+            }
+
+            if (isOperationPerformed)
+            {
+                display.Text = "";
+                isOperationPerformed = false;
+            }
+
+            display.Text += btn.Text;
         }
 
-        private void btnAdd_Click(object sender, EventArgs e)
+        private void Form1_Load(object sender, EventArgs e)
         {
-            PerformCalculation((x, y) => x + y);
-        }
 
-        private void btnSubtract_Click(object sender, EventArgs e)
-        {
-            PerformCalculation((x, y) => x - y);
-        }
-
-        private void btnMultiply_Click(object sender, EventArgs e)
-        {
-            PerformCalculation((x, y) => x * y);
-        }
-
-        private void btnDivide_Click(object sender, EventArgs e)
-        {
-            PerformCalculation((x, y) => y == 0 ? throw new DivideByZeroException() : x / y);
-        }
-
-        private void btnModulo_Click(object sender, EventArgs e)
-        {
-            PerformCalculation((x, y) => y == 0 ? throw new DivideByZeroException() : x % y);
-        }
-
-        private void btnClear_Click(object sender, EventArgs e)
-        {
-            txtNumber1.Clear();
-            txtNumber2.Clear();
-            lblResult.Text = "Result: 0";
-            txtNumber1.Focus();
         }
     }
 }
