@@ -1,0 +1,10 @@
+C:\Users\Lenovo\source\repos\HospitalOPDForm\bin\Debug\HospitalOPDForm.exe.config
+C:\Users\Lenovo\source\repos\HospitalOPDForm\bin\Debug\HospitalOPDForm.exe
+C:\Users\Lenovo\source\repos\HospitalOPDForm\bin\Debug\HospitalOPDForm.pdb
+C:\Users\Lenovo\source\repos\HospitalOPDForm\obj\Debug\HospitalOPDForm.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\HospitalOPDForm\obj\Debug\HospitalOPDForm.Form1.resources
+C:\Users\Lenovo\source\repos\HospitalOPDForm\obj\Debug\HospitalOPDForm.Properties.Resources.resources
+C:\Users\Lenovo\source\repos\HospitalOPDForm\obj\Debug\HospitalOPDForm.csproj.GenerateResource.cache
+C:\Users\Lenovo\source\repos\HospitalOPDForm\obj\Debug\HospitalOPDForm.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\HospitalOPDForm\obj\Debug\HospitalOPDForm.exe
+C:\Users\Lenovo\source\repos\HospitalOPDForm\obj\Debug\HospitalOPDForm.pdb

@@ -1,0 +1,6 @@
+C:\Users\Lenovo\source\repos\MyOperations\bin\Debug\MyOperations.dll
+C:\Users\Lenovo\source\repos\MyOperations\bin\Debug\MyOperations.pdb
+C:\Users\Lenovo\source\repos\MyOperations\obj\Debug\MyOperations.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\MyOperations\obj\Debug\MyOperations.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\MyOperations\obj\Debug\MyOperations.dll
+C:\Users\Lenovo\source\repos\MyOperations\obj\Debug\MyOperations.pdb
