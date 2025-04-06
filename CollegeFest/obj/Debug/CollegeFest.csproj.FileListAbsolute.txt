@@ -1,0 +1,10 @@
+C:\Users\Lenovo\source\repos\CollegeFest\obj\Debug\CollegeFest.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\CollegeFest\obj\Debug\CollegeFest.Properties.Resources.resources
+C:\Users\Lenovo\source\repos\CollegeFest\obj\Debug\CollegeFest.csproj.GenerateResource.cache
+C:\Users\Lenovo\source\repos\CollegeFest\obj\Debug\CollegeFest.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\CollegeFest\bin\Debug\CollegeFest.exe.config
+C:\Users\Lenovo\source\repos\CollegeFest\bin\Debug\CollegeFest.exe
+C:\Users\Lenovo\source\repos\CollegeFest\bin\Debug\CollegeFest.pdb
+C:\Users\Lenovo\source\repos\CollegeFest\obj\Debug\CollegeFest.exe
+C:\Users\Lenovo\source\repos\CollegeFest\obj\Debug\CollegeFest.pdb
+C:\Users\Lenovo\source\repos\CollegeFest\obj\Debug\CollegeFest.Form1.resources
