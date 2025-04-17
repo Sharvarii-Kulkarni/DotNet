@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ExceptionDemo",
+    "\\MyOperations"
   ],
-  "SelectedNode": "\\ExceptionDemo",
+  "SelectedNode": "\\MyOperations\\Operations.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -1,0 +1,15 @@
+C:\Users\Lenovo\source\repos\PRACTICE\WordCount\bin\Debug\net8.0\WordCount.exe
+C:\Users\Lenovo\source\repos\PRACTICE\WordCount\bin\Debug\net8.0\WordCount.deps.json
+C:\Users\Lenovo\source\repos\PRACTICE\WordCount\bin\Debug\net8.0\WordCount.runtimeconfig.json
+C:\Users\Lenovo\source\repos\PRACTICE\WordCount\bin\Debug\net8.0\WordCount.dll
+C:\Users\Lenovo\source\repos\PRACTICE\WordCount\bin\Debug\net8.0\WordCount.pdb
+C:\Users\Lenovo\source\repos\PRACTICE\WordCount\obj\Debug\net8.0\WordCount.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\PRACTICE\WordCount\obj\Debug\net8.0\WordCount.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\PRACTICE\WordCount\obj\Debug\net8.0\WordCount.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\PRACTICE\WordCount\obj\Debug\net8.0\WordCount.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\PRACTICE\WordCount\obj\Debug\net8.0\WordCount.sourcelink.json
+C:\Users\Lenovo\source\repos\PRACTICE\WordCount\obj\Debug\net8.0\WordCount.dll
+C:\Users\Lenovo\source\repos\PRACTICE\WordCount\obj\Debug\net8.0\refint\WordCount.dll
+C:\Users\Lenovo\source\repos\PRACTICE\WordCount\obj\Debug\net8.0\WordCount.pdb
+C:\Users\Lenovo\source\repos\PRACTICE\WordCount\obj\Debug\net8.0\WordCount.genruntimeconfig.cache
+C:\Users\Lenovo\source\repos\PRACTICE\WordCount\obj\Debug\net8.0\ref\WordCount.dll

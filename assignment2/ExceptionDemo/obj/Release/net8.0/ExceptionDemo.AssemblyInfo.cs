@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ExceptionDemo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+75b2fb8c711a990627b152a5f6bc3f7eb1a20a84")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3592c01d7f748ebf7fca0812f0bd56eb5a1b8bcc")]
 [assembly: System.Reflection.AssemblyProductAttribute("ExceptionDemo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExceptionDemo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

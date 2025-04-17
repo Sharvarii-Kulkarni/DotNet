@@ -1,0 +1,15 @@
+C:\Users\Lenovo\source\repos\PRACTICE\ToDoManager\bin\Debug\net8.0\ToDoManager.exe
+C:\Users\Lenovo\source\repos\PRACTICE\ToDoManager\bin\Debug\net8.0\ToDoManager.deps.json
+C:\Users\Lenovo\source\repos\PRACTICE\ToDoManager\bin\Debug\net8.0\ToDoManager.runtimeconfig.json
+C:\Users\Lenovo\source\repos\PRACTICE\ToDoManager\bin\Debug\net8.0\ToDoManager.dll
+C:\Users\Lenovo\source\repos\PRACTICE\ToDoManager\bin\Debug\net8.0\ToDoManager.pdb
+C:\Users\Lenovo\source\repos\PRACTICE\ToDoManager\obj\Debug\net8.0\ToDoManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\PRACTICE\ToDoManager\obj\Debug\net8.0\ToDoManager.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\PRACTICE\ToDoManager\obj\Debug\net8.0\ToDoManager.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\PRACTICE\ToDoManager\obj\Debug\net8.0\ToDoManager.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\PRACTICE\ToDoManager\obj\Debug\net8.0\ToDoManager.sourcelink.json
+C:\Users\Lenovo\source\repos\PRACTICE\ToDoManager\obj\Debug\net8.0\ToDoManager.dll
+C:\Users\Lenovo\source\repos\PRACTICE\ToDoManager\obj\Debug\net8.0\refint\ToDoManager.dll
+C:\Users\Lenovo\source\repos\PRACTICE\ToDoManager\obj\Debug\net8.0\ToDoManager.pdb
+C:\Users\Lenovo\source\repos\PRACTICE\ToDoManager\obj\Debug\net8.0\ToDoManager.genruntimeconfig.cache
+C:\Users\Lenovo\source\repos\PRACTICE\ToDoManager\obj\Debug\net8.0\ref\ToDoManager.dll

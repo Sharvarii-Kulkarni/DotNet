@@ -1,0 +1,15 @@
+C:\Users\Lenovo\source\repos\PRACTICE\ArrayBasics\obj\Debug\net8.0\ArrayBasics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\PRACTICE\ArrayBasics\obj\Debug\net8.0\ArrayBasics.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\PRACTICE\ArrayBasics\obj\Debug\net8.0\ArrayBasics.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\PRACTICE\ArrayBasics\obj\Debug\net8.0\ArrayBasics.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\PRACTICE\ArrayBasics\obj\Debug\net8.0\ArrayBasics.sourcelink.json
+C:\Users\Lenovo\source\repos\PRACTICE\ArrayBasics\bin\Debug\net8.0\ArrayBasics.exe
+C:\Users\Lenovo\source\repos\PRACTICE\ArrayBasics\bin\Debug\net8.0\ArrayBasics.deps.json
+C:\Users\Lenovo\source\repos\PRACTICE\ArrayBasics\bin\Debug\net8.0\ArrayBasics.runtimeconfig.json
+C:\Users\Lenovo\source\repos\PRACTICE\ArrayBasics\bin\Debug\net8.0\ArrayBasics.dll
+C:\Users\Lenovo\source\repos\PRACTICE\ArrayBasics\bin\Debug\net8.0\ArrayBasics.pdb
+C:\Users\Lenovo\source\repos\PRACTICE\ArrayBasics\obj\Debug\net8.0\ArrayBasics.dll
+C:\Users\Lenovo\source\repos\PRACTICE\ArrayBasics\obj\Debug\net8.0\refint\ArrayBasics.dll
+C:\Users\Lenovo\source\repos\PRACTICE\ArrayBasics\obj\Debug\net8.0\ArrayBasics.pdb
+C:\Users\Lenovo\source\repos\PRACTICE\ArrayBasics\obj\Debug\net8.0\ArrayBasics.genruntimeconfig.cache
+C:\Users\Lenovo\source\repos\PRACTICE\ArrayBasics\obj\Debug\net8.0\ref\ArrayBasics.dll

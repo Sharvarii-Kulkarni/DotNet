@@ -1,0 +1,15 @@
+C:\Users\Lenovo\source\repos\PRACTICE\BasicFileOperations\obj\Debug\net8.0\BasicFileOperations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\PRACTICE\BasicFileOperations\obj\Debug\net8.0\BasicFileOperations.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\PRACTICE\BasicFileOperations\obj\Debug\net8.0\BasicFileOperations.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\PRACTICE\BasicFileOperations\obj\Debug\net8.0\BasicFileOperations.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\PRACTICE\BasicFileOperations\obj\Debug\net8.0\BasicFileOperations.sourcelink.json
+C:\Users\Lenovo\source\repos\PRACTICE\BasicFileOperations\bin\Debug\net8.0\BasicFileOperations.exe
+C:\Users\Lenovo\source\repos\PRACTICE\BasicFileOperations\bin\Debug\net8.0\BasicFileOperations.deps.json
+C:\Users\Lenovo\source\repos\PRACTICE\BasicFileOperations\bin\Debug\net8.0\BasicFileOperations.runtimeconfig.json
+C:\Users\Lenovo\source\repos\PRACTICE\BasicFileOperations\bin\Debug\net8.0\BasicFileOperations.dll
+C:\Users\Lenovo\source\repos\PRACTICE\BasicFileOperations\bin\Debug\net8.0\BasicFileOperations.pdb
+C:\Users\Lenovo\source\repos\PRACTICE\BasicFileOperations\obj\Debug\net8.0\BasicFileOperations.dll
+C:\Users\Lenovo\source\repos\PRACTICE\BasicFileOperations\obj\Debug\net8.0\refint\BasicFileOperations.dll
+C:\Users\Lenovo\source\repos\PRACTICE\BasicFileOperations\obj\Debug\net8.0\BasicFileOperations.pdb
+C:\Users\Lenovo\source\repos\PRACTICE\BasicFileOperations\obj\Debug\net8.0\BasicFileOperations.genruntimeconfig.cache
+C:\Users\Lenovo\source\repos\PRACTICE\BasicFileOperations\obj\Debug\net8.0\ref\BasicFileOperations.dll
