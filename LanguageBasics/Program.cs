@@ -2,7 +2,7 @@
 {
     static void Main()
     {
-        //StringManipulator.RunStringManipulation(); // Calls the function from StringManipulator.cs
+        StringManipulator.RunStringManipulation(); // Calls the function from StringManipulator.cs
 
         // CalculatorApp.RunCalculator();  // Example: Calls the function from CalculatorApp.cs
 
@@ -10,6 +10,6 @@
 
         //PalindromeChecker.RunPalindromeChecker();
 
-        SquareRootCalculator.RunSquareRootCalculator();
+        //SquareRootCalculator.RunSquareRootCalculator();
     }
 }

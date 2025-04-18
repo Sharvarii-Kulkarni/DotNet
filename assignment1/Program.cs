@@ -8,8 +8,8 @@
 
         //DigitSumCalculator.RunDigitSumCalculator(); // Calls the function from DigitSumCalculator.cs
 
-        //PalindromeChecker.RunPalindromeChecker();
+        PalindromeChecker.RunPalindromeChecker();
 
-        SquareRootCalculator.RunSquareRootCalculator();
+        //SquareRootCalculator.RunSquareRootCalculator();
     }
 }

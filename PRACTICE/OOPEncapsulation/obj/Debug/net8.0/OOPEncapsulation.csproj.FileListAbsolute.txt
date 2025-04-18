@@ -1,0 +1,15 @@
+C:\Users\Lenovo\source\repos\PRACTICE\OOPEncapsulation\bin\Debug\net8.0\OOPEncapsulation.exe
+C:\Users\Lenovo\source\repos\PRACTICE\OOPEncapsulation\bin\Debug\net8.0\OOPEncapsulation.deps.json
+C:\Users\Lenovo\source\repos\PRACTICE\OOPEncapsulation\bin\Debug\net8.0\OOPEncapsulation.runtimeconfig.json
+C:\Users\Lenovo\source\repos\PRACTICE\OOPEncapsulation\bin\Debug\net8.0\OOPEncapsulation.dll
+C:\Users\Lenovo\source\repos\PRACTICE\OOPEncapsulation\bin\Debug\net8.0\OOPEncapsulation.pdb
+C:\Users\Lenovo\source\repos\PRACTICE\OOPEncapsulation\obj\Debug\net8.0\OOPEncapsulation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\PRACTICE\OOPEncapsulation\obj\Debug\net8.0\OOPEncapsulation.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\PRACTICE\OOPEncapsulation\obj\Debug\net8.0\OOPEncapsulation.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\PRACTICE\OOPEncapsulation\obj\Debug\net8.0\OOPEncapsulation.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\PRACTICE\OOPEncapsulation\obj\Debug\net8.0\OOPEncapsulation.sourcelink.json
+C:\Users\Lenovo\source\repos\PRACTICE\OOPEncapsulation\obj\Debug\net8.0\OOPEncapsulation.dll
+C:\Users\Lenovo\source\repos\PRACTICE\OOPEncapsulation\obj\Debug\net8.0\refint\OOPEncapsulation.dll
+C:\Users\Lenovo\source\repos\PRACTICE\OOPEncapsulation\obj\Debug\net8.0\OOPEncapsulation.pdb
+C:\Users\Lenovo\source\repos\PRACTICE\OOPEncapsulation\obj\Debug\net8.0\OOPEncapsulation.genruntimeconfig.cache
+C:\Users\Lenovo\source\repos\PRACTICE\OOPEncapsulation\obj\Debug\net8.0\ref\OOPEncapsulation.dll

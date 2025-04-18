@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Lenovo\\source\\repos\\LINQ_assignment8\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{177FB638-F483-4657-9EBD-61D4013F9248}|LINQ_assignment8.csproj|c:\\users\\lenovo\\source\\repos\\linq_assignment8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{177FB638-F483-4657-9EBD-61D4013F9248}|LINQ_assignment8.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\source\\repos\\LINQ_assignment8\\LinqToXML.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LinqToXML.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\source\\repos\\LINQ_assignment8\\LinqToSql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LinqToSql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\source\\repos\\LINQ_assignment8\\LinqToCollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LinqToCollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\source\\repos\\LINQ_assignment8\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\source\\repos\\LINQ_assignment8\\LinqToArray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LinqToArray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,6 +39,57 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "LinqToXML.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\LINQ_assignment8\\LinqToXML.cs",
+              "RelativeDocumentMoniker": "LinqToXML.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\LINQ_assignment8\\LinqToXML.cs",
+              "RelativeToolTip": "LinqToXML.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T17:56:03.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LinqToSql.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\LINQ_assignment8\\LinqToSql.cs",
+              "RelativeDocumentMoniker": "LinqToSql.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\LINQ_assignment8\\LinqToSql.cs",
+              "RelativeToolTip": "LinqToSql.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T17:54:55.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LinqToArray.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\LINQ_assignment8\\LinqToArray.cs",
+              "RelativeDocumentMoniker": "LinqToArray.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\LINQ_assignment8\\LinqToArray.cs",
+              "RelativeToolTip": "LinqToArray.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T14:47:07.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LinqToCollection.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\LINQ_assignment8\\LinqToCollection.cs",
+              "RelativeDocumentMoniker": "LinqToCollection.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\LINQ_assignment8\\LinqToCollection.cs",
+              "RelativeToolTip": "LinqToCollection.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T14:47:03.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\LINQ_assignment8\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Lenovo\\source\\repos\\assignment3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C87ED1CE-CF9D-4DAA-98A1-52823BCFDAD4}|assignment3.csproj|c:\\users\\lenovo\\source\\repos\\assignment3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C87ED1CE-CF9D-4DAA-98A1-52823BCFDAD4}|assignment3.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C87ED1CE-CF9D-4DAA-98A1-52823BCFDAD4}|assignment3.csproj|c:\\users\\lenovo\\source\\repos\\assignment3\\employeemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C87ED1CE-CF9D-4DAA-98A1-52823BCFDAD4}|assignment3.csproj|solutionrelative:employeemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C87ED1CE-CF9D-4DAA-98A1-52823BCFDAD4}|assignment3.csproj|c:\\users\\lenovo\\source\\repos\\assignment3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C87ED1CE-CF9D-4DAA-98A1-52823BCFDAD4}|assignment3.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,36 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EmployeeManagement.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\assignment3\\EmployeeManagement.cs",
-              "RelativeDocumentMoniker": "EmployeeManagement.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\assignment3\\EmployeeManagement.cs",
-              "RelativeToolTip": "EmployeeManagement.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAIwGgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T14:40:30.464Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\assignment3\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\assignment3\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-05T14:40:22.048Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeManagement.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\assignment3\\EmployeeManagement.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\assignment3\\EmployeeManagement.cs",
+              "RelativeToolTip": "EmployeeManagement.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAAABMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T14:40:30.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             }
           ]
         }
