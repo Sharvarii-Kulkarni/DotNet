@@ -1,0 +1,299 @@
+using Microsoft.Data.SqlClient;
+using System;
+
+partial class Program
+{
+    static string connectionString = "Server=MCS05\\SQLEXPRESS;Database=TestDB;Trusted_Connection=True;TrustServerCertificate=True;";
+
+    static void Main()
+    {
+        bool exit = false;
+
+        while (!exit)
+        {
+            Console.WriteLine("\n=== Employee Management Menu ===");
+            Console.WriteLine("1. Create Employee");
+            Console.WriteLine("2. Update Employee");
+            Console.WriteLine("3. Delete Employee");
+            Console.WriteLine("4. Read Employees");
+            Console.WriteLine("5. Exit");
+            Console.Write("Enter your choice (1-5): ");
+
+            string choice = Console.ReadLine();
+
+            switch (choice)
+            {
+                case "1":
+                    CreateEmployee();
+                    break;
+                case "2":
+                    UpdateEmployee();
+                    break;
+                case "3":
+                    DeleteEmployee();
+                    break;
+                case "4":
+                    ReadEmployees();
+                    break;
+                case "5":
+                    exit = true;
+                    Console.WriteLine("Exiting program...");
+                    break;
+                default:
+                    Console.WriteLine("Invalid choice. Please enter a number between 1 and 5.");
+                    break;
+            }
+
+            if (!exit)
+            {
+                Console.WriteLine("\nPress any key to continue...");
+                Console.ReadKey();
+                Console.Clear();
+            }
+        }
+    }
+
+    static void CreateEmployee()
+    {
+        try
+        {
+            Console.Write("Enter employee name: ");
+            string name = Console.ReadLine();
+
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                conn.Open();
+                string query = "INSERT INTO Employees (Name) VALUES (@Name)";
+                using (SqlCommand cmd = new SqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@Name", name);
+                    cmd.ExecuteNonQuery();
+                    Console.WriteLine("Employee created.");
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Error: " + ex.Message);
+        }
+    }
+
+    static void UpdateEmployee()
+    {
+        try
+        {
+            Console.Write("Enter employee ID to update: ");
+            int id = int.Parse(Console.ReadLine());
+            Console.Write("Enter new name: ");
+            string name = Console.ReadLine();
+
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                conn.Open();
+                string query = "UPDATE Employees SET Name = @Name WHERE Id = @Id";
+                using (SqlCommand cmd = new SqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@Id", id);
+                    cmd.Parameters.AddWithValue("@Name", name);
+                    int rowsAffected = cmd.ExecuteNonQuery();
+                    Console.WriteLine(rowsAffected > 0 ? "Employee updated." : "Employee not found.");
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Error: " + ex.Message);
+        }
+    }
+
+    static void DeleteEmployee()
+    {
+        try
+        {
+            Console.Write("Enter employee ID to delete: ");
+            int id = int.Parse(Console.ReadLine());
+
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                conn.Open();
+                string query = "DELETE FROM Employees WHERE Id = @Id";
+                using (SqlCommand cmd = new SqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@Id", id);
+                    int rowsAffected = cmd.ExecuteNonQuery();
+                    Console.WriteLine(rowsAffected > 0 ? "Employee deleted." : "Employee not found.");
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Error: " + ex.Message);
+        }
+    }
+
+    static void ReadEmployees()
+    {
+        try
+        {
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                conn.Open();
+                string query = "SELECT Id, Name FROM Employees";
+                using (SqlCommand cmd = new SqlCommand(query, conn))
+                {
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        Console.WriteLine("Employees:");
+                        if (!reader.HasRows)
+                        {
+                            Console.WriteLine("No employees found.");
+                        }
+                        while (reader.Read())
+                        {
+                            Console.WriteLine($"Id: {reader["Id"]}, Name: {reader["Name"]}");
+                        }
+                    }
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Error: " + ex.Message);
+        }
+    }
+}
+
+
+2nd code:
+
+using Microsoft.Data.SqlClient;
+using System;
+
+class Program
+{
+    static string conn = "Server=SANIKA\\SQLEXPRESS;Database=TestDB;Trusted_Connection=True;TrustServerCertificate=True;";
+
+    static void Main()
+    {
+        while (true)
+        {
+            Console.WriteLine("\nMenu:");
+            Console.WriteLine("1. Add Employee");
+            Console.WriteLine("2. Change Employee");
+            Console.WriteLine("3. Remove Employee");
+            Console.WriteLine("4. Show Employees");
+            Console.WriteLine("5. Quit");
+            Console.Write("Pick (1-5): ");
+
+            string pick = Console.ReadLine();
+            Console.Clear();
+
+            if (pick == "1") AddEmployee();
+            else if (pick == "2") ChangeEmployee();
+            else if (pick == "3") RemoveEmployee();
+            else if (pick == "4") ShowEmployees();
+            else if (pick == "5") break;
+            else Console.WriteLine("Wrong pick, try again.");
+
+            if (pick != "5")
+            {
+                Console.WriteLine("Press any key...");
+                Console.ReadKey();
+            }
+        }
+        Console.WriteLine("Done.");
+    }
+
+    static void AddEmployee()
+    {
+        try
+        {
+            Console.Write("Name: ");
+            string name = Console.ReadLine();
+
+            using (SqlConnection c = new SqlConnection(conn))
+            {
+                c.Open();
+                SqlCommand cmd = new SqlCommand("INSERT INTO Employees (Name) VALUES (@Name)", c);
+                cmd.Parameters.AddWithValue("@Name", name);
+                cmd.ExecuteNonQuery();
+                Console.WriteLine("Added.");
+            }
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine("Error: " + e.Message);
+        }
+    }
+
+    static void ChangeEmployee()
+    {
+        try
+        {
+            Console.Write("ID: ");
+            int id = int.Parse(Console.ReadLine());
+            Console.Write("New name: ");
+            string name = Console.ReadLine();
+
+            using (SqlConnection c = new SqlConnection(conn))
+            {
+                c.Open();
+                SqlCommand cmd = new SqlCommand("UPDATE Employees SET Name = @Name WHERE Id = @Id", c);
+                cmd.Parameters.AddWithValue("@Id", id);
+                cmd.Parameters.AddWithValue("@Name", name);
+                cmd.ExecuteNonQuery();
+                Console.WriteLine("Changed.");
+            }
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine("Error: " + e.Message);
+        }
+    }
+
+    static void RemoveEmployee()
+    {
+        try
+        {
+            Console.Write("ID: ");
+            int id = int.Parse(Console.ReadLine());
+
+            using (SqlConnection c = new SqlConnection(conn))
+            {
+                c.Open();
+                SqlCommand cmd = new SqlCommand("DELETE FROM Employees WHERE Id = @Id", c);
+                cmd.Parameters.AddWithValue("@Id", id);
+                cmd.ExecuteNonQuery();
+                Console.WriteLine("Removed.");
+            }
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine("Error: " + e.Message);
+        }
+    }
+
+    static void ShowEmployees()
+    {
+        try
+        {
+            using (SqlConnection c = new SqlConnection(conn))
+            {
+                c.Open();
+                SqlCommand cmd = new SqlCommand("SELECT Id, Name FROM Employees", c);
+                SqlDataReader r = cmd.ExecuteReader();
+
+                Console.WriteLine("Employees:");
+                while (r.Read())
+                {
+                    Console.WriteLine($"ID: {r["Id"]}, Name: {r["Name"]}");
+                }
+                r.Close();
+            }
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine("Error: " + e.Message);
+        }
+    }
+}
